@@ -10,6 +10,8 @@ RUN ln -s $(which clang-format-8) /bin/clang-format
 
 COPY LICENSE README.md /
 
+COPY .clang-format /.clang-format
+
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
