@@ -1,6 +1,6 @@
 # Clang format Github action
 
-This project can be used to run clang-format on every push using Github actions.
+This project can be used to run clang-format on every push using Github actions. Uses Microsoft codestyle by default.
 
 ## Usage
 
